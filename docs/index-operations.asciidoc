@@ -249,7 +249,7 @@ $response = $client->indices()->getMapping($params);
 
 // Get mapping 'my_type' in 'my_index'
 $params = [
-    'index' => 'my_index'
+    'index' => 'my_index',
     'type' => 'my_type'
 ];
 $response = $client->indices()->getMapping($params);
